@@ -1,0 +1,50 @@
+.testimony
+{
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    width: 100%;
+}
+.testimony-left img
+{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.testimony-mid
+{
+    width: 40%;
+    justify-content: space-around;
+    display: flex;
+}
+.testimony-mid img
+{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.testimony-right img
+{
+    margin-top: 70px;
+    margin-right: 100px;
+}
+.testimony-text-title
+{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px 0;
+    padding-top: 20px;
+}
+.testimony-text
+{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimony-left:hover
+{
+    cursor: pointer;
+}
+
+.testimony-right:hover
+{
+    cursor: pointer;
+}

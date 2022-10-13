@@ -1,0 +1,12 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+@import "./rules.css";
+@import "./header.css";
+@import "./banner.css";
+@import "./product.css";
+@import "./biograph.css";
+@import "./testimony.css";
+@import "./search-box.css";
+@import "./footer.css";
+@import "./copyright.css";

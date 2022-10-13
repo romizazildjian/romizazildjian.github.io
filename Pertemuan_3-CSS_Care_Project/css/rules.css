@@ -1,0 +1,8 @@
+:root {
+    --yellow: hsl(45, 100%, 61%);
+    --black: hsl(228, 7%, 14%);
+  }
+  
+  html {
+    font-family: "Public Sans", sans-serif;
+  }

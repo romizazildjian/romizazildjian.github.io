@@ -1,0 +1,31 @@
+.two-kind-of-biograph-right
+{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.two-kind-of-biograph-right img {
+    width: 300px;
+    height: 230px;
+}
+.text-biograph
+{
+    text-align: center;
+}
+.text-biograph p
+{
+    text-align: left;
+}
+.two-kind-of-biograph-left {
+    margin-left: 100px;
+    width:40%;
+    display: inline-block;
+}
+ .biograph{
+    background-color: gainsboro;
+    display: flex;
+    padding: 5px 0;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+ }
