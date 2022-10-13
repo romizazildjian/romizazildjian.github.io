@@ -1,0 +1,19 @@
+form.input-login {
+    display: table;
+}
+div.input-login {
+    display: table-row;
+}
+label, input {
+    display: table-cell;
+    margin-bottom: 13px;
+}
+label {
+    padding-left: 20px;
+}
+input {
+    text-align: center;
+}
+body {
+    background-color: skyblue;
+}
