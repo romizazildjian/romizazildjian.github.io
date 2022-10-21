@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-Query</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <h1 class="text">Hllow World!</h1>
+    <button id="show">SHOW</button>
+    <button id="hide">HIDE</button>
+
+</body>
+<script>
+
+    $('#show').click(function () {
+        $('.text').show('slow');
+    })
+    $('#hide').click(function () {
+        $('.text').hide('slow');
+    })
+</script>
+
+</html>

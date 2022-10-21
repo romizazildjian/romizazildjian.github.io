@@ -1,0 +1,88 @@
+.student-title {
+    text-align: center;
+}
+
+.student-page {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border: solid 2px #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+}
+
+.student-page .student-form {
+    width: 40%;
+    padding: 14px;
+}
+
+.student-page .student-data {
+    width: 50%;
+    padding: 14px;
+}
+
+.student-page .student-data table {
+    border: solid 1px #ccc;
+}
+
+.student-page .student-data td,
+.student-page .student-data th {
+    border-left: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.student-page .student-data td:first-child,
+.student-page .student-data th:first-child {
+    border-left: none;
+}
+
+.student-page .student-data tr {
+    border-bottom: solid 1px #ccc;
+}
+
+.student-page .student-data tr:last-child td {
+    border-bottom: none;
+}
+
+.student-form form {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f1f1f1;
+    padding: 15px;
+}
+
+.student-form form label {
+    width: 100px;
+}
+
+.student-form form input,
+.student-form label {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.student-form form input {
+    width: 200px;
+    padding: 7px;
+    text-align: center;
+}
+
+.student-form th {
+    background: #f1f1f1;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.student-form .button {
+    background: #000;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 25px auto;
+    display: table;
+    color: #fff;
+}
