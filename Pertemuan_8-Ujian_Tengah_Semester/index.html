@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDC-19</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body>
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-dark bg-primary"></nav>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img src="./img/nira.png" alt="main-logo" width="30" height="30" class="ms-1">
+            <a class="navbar-brand ms-3" href="#">RDC-19</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <nav class="navbar navbar-dark bg-primary"></nav>
+    <!-- End of Navbar -->
+    <br><br>
+    <!-- start of wrap banner and randomize  -->
+    <div class="container">
+        <!-- start of banner  -->
+        <div class="display-4">
+            Covid-19 Informations
+            <div class="blockquote">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti deserunt sit ea adipisci, aliquam
+                eos
+                consequuntur voluptas reprehenderit neque alias ab ullam quo accusantium sed facere, cupiditate,
+                dolor
+                eaque
+                fuga!
+                <br><br>
+                <p class="blockquote-footer text-right">Romiza Zildjian</p>
+            </div>
+        </div>
+        <!-- end of banner  -->
+        <br>
+        <nav class="navbar navbar-dark bg-primary"></nav>
+        <!-- end of button randomize -->
+    </div>
+    <!-- end of wrap banner and randomize  -->
+    <br><br>
+    <!-- start of card -->
+    <div class="container center-column">
+        <div class="row align-items-start">
+            <div class="col-md-6 col-xl-3 d-flex justify-content-center mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://as2.ftcdn.net/v2/jpg/02/78/91/99/1000_F_278919973_ln4c8pgfohrWuOdgsxWld0w6ehLo0lWb.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Location</h5>
+                        <p id="aaa"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex justify-content-center mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://as2.ftcdn.net/v2/jpg/03/34/01/03/1000_F_334010349_lrcYsmUgSZFA3aFmqEQb4okRtLDX9qPl.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Infected</h5>
+                        <p id="bbb"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex justify-content-center mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://as2.ftcdn.net/v2/jpg/03/44/93/29/1000_F_344932945_R6UMniqGBs7kwlTTRG8xA5OUpa6nqyo8.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Recovered</h5>
+                        <p id="ccc"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-3 d-flex justify-content-center mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://as2.ftcdn.net/v2/jpg/01/90/95/29/1000_F_190952952_TIFJyxd8svR07gcxq1y3UHfhpZd7mxW5.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fatal</h5>
+                        <p id="ddd"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of card -->
+    <br><br>
+    <!-- start of footer  -->
+    <div class="bg-primary text-center text-light">Made with Love</div>
+    <!-- end of footer  -->
+
+    <!-- https://dekontaminasi.com/api/id/covid19/stats -->
+
+    <!-- SCRIPT IMPORT -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <!-- Kalau Error Hapus https nya -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
